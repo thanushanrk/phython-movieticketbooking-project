@@ -8,6 +8,7 @@ Original file is located at
 """
 
 name = input("Enter your name: ")
+mobile = input("Enter your mobile number: ")
 
 ticket_type = input("Enter ticket type (Regular/VIP): ").lower()
 
@@ -35,6 +36,7 @@ final_amount = total - discount
 
 print("\n----- BILL -----")
 print("Name:", name)
+print("Mobile: " , mobile)
 print("Ticket Type:", ticket_type.capitalize())
 print("Tickets:", quantity)
 print("Total:", total)
